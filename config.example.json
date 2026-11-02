@@ -1,0 +1,33 @@
+{
+  "obs": {
+    "host": "127.0.0.1",
+    "port": 4455,
+    "password": ""
+  },
+  "monitor": {
+    "collection_name": "",
+    "source_name": "",
+    "normal_scene": "",
+    "fallback_scene": "",
+    "screenshot_width": 320,
+    "screenshot_height": 180,
+    "crop": [0.05, 0.05, 0.95, 0.95],
+    "auto_enabled_on_first_run": false,
+    "rules": {
+      "interval_seconds": 3,
+      "bad_checks": 4,
+      "good_checks": 3,
+      "black": true,
+      "black_pixel_threshold": 25,
+      "black_fraction": 0.98,
+      "uniform": false,
+      "uniform_stddev": 2,
+      "freeze": false,
+      "freeze_seconds": 25,
+      "frame_diff_threshold": 1.0
+    }
+  },
+  "telegram": {
+    "users": {}
+  }
+}
